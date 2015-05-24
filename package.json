@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-remko",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Remko's ESLint Configuration",
   "main": "index.js",
   "scripts": {
