@@ -12,6 +12,8 @@ rules:
   consistent-this: [2, "self"]
   new-cap: [2, {"capIsNew": false}]
   radix: 2
+  prefer-const: 2
+  computed-property-spacing: [2, "never"]
 
   no-throw-literal: 2
   no-extra-parens: 2
