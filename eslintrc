@@ -23,7 +23,7 @@ rules:
   eqeqeq: 2
   func-names: 0
   func-style: 0
-  global-require: 2
+  global-require: 0
   id-length: 0
   indent: [2, "tab", {SwitchCase: 1}]
   init-declarations: 0
