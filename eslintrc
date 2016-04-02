@@ -1,10 +1,3 @@
-env:
-  node: true
-  es6: true
-
-ecmaFeatures:
-  modules: true
-
 rules:
   array-bracket-spacing: 0
   arrow-body-style: 0
@@ -23,7 +16,7 @@ rules:
   eqeqeq: 2
   func-names: 0
   func-style: 0
-  global-require: 0
+  global-require: 2
   id-length: 0
   indent: [2, "tab", {SwitchCase: 1}]
   init-declarations: 0
@@ -46,6 +39,7 @@ rules:
   no-inline-comments: 0
   no-inner-declarations: [2, "functions"]
   no-invalid-this: 0
+  no-labels: 2
   no-lonely-if: 0
   no-loop-func: 0
   no-magic-numbers: 0
@@ -89,14 +83,10 @@ rules:
   spaced-comment: 0
   vars-on-top: 0
   wrap-iife: [2, "inside"]
-
-  # ES6
-  no-var: 2
-  prefer-const: 2
+  prefer-const: 0
+  no-var: 0
 
   # Unsure
-  prefer-reflect: 2
-  prefer-spread: 2
   accessor-pairs: 2
   arrow-spacing: 2
   block-scoped-var: 2
@@ -132,7 +122,6 @@ rules:
   no-dupe-keys: 2
   no-duplicate-case: 2
   no-empty-character-class: 2
-  no-empty-label: 2
   no-empty-pattern: 2
   no-empty: 2
   no-eq-null: 2
@@ -149,7 +138,6 @@ rules:
   no-irregular-whitespace: 2
   no-iterator: 2
   no-label-var: 2
-  no-labels: 2
   no-lone-blocks: 2
   no-mixed-requires: 2
   no-multi-spaces: 2
@@ -188,7 +176,8 @@ rules:
   no-useless-concat: 1
   no-void: 2
   no-with: 2
-  prefer-const: 2
+  prefer-reflect: 2
+  prefer-spread: 2
   require-yield: 2
   semi-spacing: [2, {before: false, after: true}]
   semi: 2

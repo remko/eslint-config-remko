@@ -1,10 +1,10 @@
-#!/usr/bin/env babel-node
+#!/usr/bin/env node
 
-const yaml = require('js-yaml');
-const fs = require('fs');
-const path = require('path');
+var yaml = require('js-yaml');
+var fs = require('fs');
+var path = require('path');
  
-const doc = yaml.safeLoad(fs.readFileSync(path.join(__dirname, 'eslintrc'), 'utf8'));
+var doc = yaml.safeLoad(fs.readFileSync(path.join(__dirname, 'eslintrc'), 'utf8'));
 fs.writeFileSync(
-		path.join(__dirname, 'index.js'), 
-		`module.exports = ${JSON.stringify(doc, undefined, '\t')};\n`);
+	path.join(__dirname, 'index.js'), 
+	'module.exports = ' + JSON.stringify(doc, undefined, '\t') + ';\n');
