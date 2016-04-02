@@ -32,6 +32,7 @@ rules:
   no-alert: 2
   no-arrow-condition: 0
   no-bitwise: 0
+  no-continue: 0
   no-else-return: 0
   no-extra-parens: 2
   no-extra-semi: 2
@@ -112,7 +113,6 @@ rules:
   no-console: 2
   no-const-assign: 2
   no-constant-condition: 2
-  no-continue: 2
   no-control-regex: 2
   no-debugger: 2
   no-delete-var: 2
