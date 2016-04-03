@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-remko",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Remko's ESLint Configuration",
   "main": "index.js",
   "files": [
@@ -11,7 +11,7 @@
   ],
   "scripts": {
     "prepublish": "node build.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node check.js"
   },
   "repository": {
     "type": "git",
@@ -32,6 +32,7 @@
   "homepage": "https://github.com/remko/eslint-config-remko",
   "devDependencies": {
     "eslint": "^2.6.0",
-    "js-yaml": "^3.3.0"
+    "js-yaml": "^3.3.0",
+    "lodash": "^4.7.0"
   }
 }
