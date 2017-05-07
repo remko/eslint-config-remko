@@ -13,7 +13,7 @@ rules:
   default-case: 0
   dot-location: [2, "property"]
   dot-notation: 2
-  eqeqeq: 2
+  eqeqeq: [2, "allow-null"]
   func-names: 0
   func-style: 0
   global-require: 2
@@ -141,7 +141,7 @@ rules:
   no-empty-function: 0
   no-empty-pattern: 2
   no-empty: 2
-  no-eq-null: 2
+  no-eq-null: 0
   no-eval: 2
   no-ex-assign: 2
   no-extend-native: 2
